@@ -76,17 +76,29 @@ public class Question {
 //                System.out.println("not day");
 //        }
 
-   //Question 5
-      Scanner sc = new Scanner(System.in);
-      System.out.println("Enter a year: ");
-      int year = sc.nextInt();
-      if((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {
-          System.out.println(year + " is a leap year");
-      }
-      else {
-          System.out.println(year + " is not a leap year");
-      }
-        }
+        //Question 5
+//      Scanner sc = new Scanner(System.in);
+//      System.out.println("Enter a year: ");
+//      int year = sc.nextInt();
+//      if((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {
+//          System.out.println(year + " is a leap year");
+//      }
+//      else {
+//          System.out.println(year + " is not a leap year");
+//      }
+//        }
+//
+//    }
 
+        //Question 6
+        Scanner sc = new Scanner(System.in);
+        String website = sc.next();
+        if (website.endsWith(".org")) {
+            System.out.println("This is an oganizational website");
+        } else if (website.endsWith(".com")) {
+            System.out.println("This is comercial website");
+        } else if (website.endsWith(".ind")) ;
+        System.out.println("This is an indian website");
     }
+}
 
