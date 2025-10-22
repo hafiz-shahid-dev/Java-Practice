@@ -16,13 +16,32 @@ public class While {
 //        }
 //    }
 
+//        int i = 1;
+//        int sum = 0;
+//        while (i <= 5) {
+//            sum = sum + i;
+//            i++;
+//        }
+//            System.out.println("sum = " + sum);
+//
+//    }
+//}
+
+//         int i = 1;
+//         do {
+//             System.out.println(i);
+//             i++;
+//         }while (i<=10);
+//
+//         }
+//         }
+
         int i = 1;
         int sum = 0;
-        while (i <= 5) {
+        do {
             sum = sum + i;
             i++;
-        }
-            System.out.println("sum = " + sum);
-
+        } while (i <= 5);
+        System.out.println("sum = " + sum);
     }
 }
