@@ -15,15 +15,24 @@ public class Example2 {
 //             sum += n*i;
 //             System.out.println(sum);
 //        }
-        int []marks;
-       marks =  new int [5];
-       marks[0] = 100;
-       marks[1] = 90;
-       marks[2] = 80;
-       marks[3] = 70;
-       marks[4] = 60;
-       System.out.println(marks[3]);
-
+//        int []marks;
+//       marks =  new int [5];
+//       marks[0] = 100;
+//       marks[1] = 90;
+//       marks[2] = 80;
+//       marks[3] = 70;
+//       marks[4] = 60;
+//       System.out.println(marks[3]);
+//
+//    }
+//        int[] numbers = {10, 20, 30, 40, 50, 60, 70, 80, 90, 100};
+//        for (int i = 0; i < numbers.length; i++) {
+//            System.out.println("Number:" + numbers[i]);
+//        }
+        String[] names = {"ismaeel", "hafiz","ali"};
+        for(String name : names) {
+            System.out.println("Name:" + name);
+        }
     }
 }
 
