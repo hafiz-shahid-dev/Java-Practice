@@ -61,9 +61,9 @@
 //    }
 //}
 class Rectangle {
-    int length = 1;
-    int width = w;
-    void setValues(int 1, int w) {
+    int length;
+    int width;
+    void setValues(int length, int w) {
         length = 1;
         width = w;
     }
